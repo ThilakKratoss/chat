@@ -1,0 +1,20 @@
+{
+  "name": "chat",
+  "version": "1.0.0",
+  "description": "chat application ",
+  "main": "index.js",
+  "scripts": {
+    "start":"nodemon server.js"
+  },
+  "keywords": [
+    "chat"
+  ],
+  "author": "Thilak",
+  "license": "ISC",
+  "dependencies": {
+    "socket.io": "^2.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.4"
+  }
+}
